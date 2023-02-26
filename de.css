@@ -124,3 +124,9 @@ html,
   background-color: #0e76a8;
   color: #ffffff;
 }
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #00acee;
+  color: #ffffff;
+}
