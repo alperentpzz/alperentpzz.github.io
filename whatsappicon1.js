@@ -28,8 +28,8 @@ function CreateWhatsappChatWidget(option = {
     }
     if(!option.chatButtonSetting.position){
         option.chatButtonSetting.position = "right";
-        option.chatButtonSetting.marginBottom = "20";
-        option.chatButtonSetting.marginLeft = "0";
+        option.chatButtonSetting.marginBottom = "30";
+        option.chatButtonSetting.marginLeft = "20";
         option.chatButtonSetting.marginRight = "20";
     }
     var css = document.createElement("STYLE");
