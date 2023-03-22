@@ -28,8 +28,8 @@ function CreateWhatsappChatWidget(option = {
     }
     if(!option.chatButtonSetting.position){
         option.chatButtonSetting.position = "right";
-        option.chatButtonSetting.marginBottom = "30";
-        option.chatButtonSetting.marginLeft = "20";
+        option.chatButtonSetting.marginBottom = "20";
+        option.chatButtonSetting.marginLeft = "0";
         option.chatButtonSetting.marginRight = "20";
     }
     var css = document.createElement("STYLE");
@@ -59,7 +59,7 @@ function CreateWhatsappChatWidget(option = {
             </div>
         </div>`);
         jQuery('#whatsapp_chat_widget').append(`
-            <div class='wa-chat-box'>
+            <div class='wa-chat-box' style="display: block; left: 30px;">
                 <div class='wa-chat-box-header'>
                     <img class='wa-chat-box-brand' onError='this.src= "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png";' src='${option.brandSetting.brandImg}'/>
                     <div class='wa-chat-box-brand-text'>
